@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title><?= $title ?? 'MVC App' ?></title>
+    <title><?= $title ?? 'MVC Florecita Wenny' ?></title>
     <style>
         :root {
             --primary-color: #2c3e50;
