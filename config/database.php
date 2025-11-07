@@ -1,9 +1,9 @@
 <?php
 return [
-    'host' => getenv('MYSQLHOST') ?: 'containers-us-west-54.railway.app',
-    'port' => getenv('MYSQLPORT') ?: '3306',
-    'dbname' => getenv('MYSQLDATABASE') ?: 'railway',
-    'username' => getenv('MYSQLUSER') ?: 'root',
-    'password' => getenv('MYSQLPASSWORD') ?: '2GyzxM9yDsgvLp2ff4Qk',
+    'host' => getenv('MYSQLHOST'),
+    'port' => getenv('MYSQLPORT'),
+    'dbname' => getenv('MYSQLDATABASE'),
+    'username' => getenv('MYSQLUSER'),
+    'password' => getenv('MYSQLPASSWORD'),
     'charset' => 'utf8mb4'
 ];
